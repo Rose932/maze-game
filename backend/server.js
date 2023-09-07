@@ -14,6 +14,13 @@ const users = [
   { id: 2, username: "user2", password: "password2" },
 ];
 
+// Create a simple get request that returns a greeting
+// res.send("Hello World!)
+
+app.get('/', (req, res) => {
+  res.send('hello world');
+});
+
 app.post("/api/login", (req, res) => {
   const { username, password } = req.body;
 

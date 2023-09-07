@@ -1,6 +1,6 @@
 import React from "react";
-import Login from "./Login";
-import Signup from "./Signup"; // Add this line
+import Login from "./components/Login";
+import Signup from "./components/Signup"; // Add this line
 import "./App.css";
 
 function App() {
